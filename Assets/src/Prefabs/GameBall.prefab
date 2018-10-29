@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23126828758795520}
   - component: {fileID: 135214730518512656}
   - component: {fileID: 54431765528538804}
+  - component: {fileID: 114699838859832420}
   m_Layer: 0
   m_Name: GameBall
   m_TagString: Untagged
@@ -100,6 +101,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114699838859832420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486148253215486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70664ad0102b7a41b0722b38b60d171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135214730518512656
 SphereCollider:
   m_ObjectHideFlags: 1
